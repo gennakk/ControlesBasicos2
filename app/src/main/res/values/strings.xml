@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ControlesBasicos2</string>
+    <string name="btn01">Actividad 01</string>
+    <string name="btn02">Actividad 02</string>
+    <string name="btn03">Actividad 03</string>
+    <string name="btn04">Actividad 04</string>
+    <string name="btnSalir">Salir</string>
+</resources>
