@@ -5,4 +5,31 @@
     <string name="btn03">Actividad 03</string>
     <string name="btn04">Actividad 04</string>
     <string name="btnSalir">Salir</string>
+    <string name="a01txtNombre">Nombre:</string>
+    <string name="a01txtApellidos">Apellidos:</string>
+    <string name="a01txtCondiciones">Aceptas condiciones:</string>
+    <string name="a01btnVeri">Verificar</string>
+    <string name="a01btnVolver">Volver</string>
+    <string name="a01btnAceptar">Aceptar</string>
+    <string name="a01btnRechazar">Rechazar</string>
+    <string name="a01txtHola">Hola</string>
+    <string name="a01txtAceptas">¿Aceptas las condiciones?</string>
+    <string name="a02txtSuma">SUMA</string>
+    <string name="a02txtPlus">+</string>
+    <string name="a02txtIgual">=</string>
+    <string name="a02txtCorrectas">Preguntas correctas:</string>
+    <string name="a02txtIncorrectas">Incorrectas:</string>
+    <string name="a02btn">Comprobar resultado</string>
+    <string name="a02txtResultadoFrase">El resultado de la operacion es:</string>
+    <string name="a02txtResultadoCorrecto">CORRECTA</string>
+    <string name="a02txtResultadoIcorrecto">INCORRECTA</string>
+    <string name="a03txtIntroduce">Introduce tus datos:</string>
+    <string name="a03txtSexo">Sexo:</string>
+    <string name="a03txtAficiones">Aficiones:</string>
+    <string name="a03rdoMasculino">Masculino</string>
+    <string name="a03rdoFemenino">Femenino</string>
+    <string name="a03chkMusica">Música</string>
+    <string name="a03chkLectura">Lectura</string>
+    <string name="a03chkDeportes">Desportes</string>
+    <string name="a03chkViajar">Viajar</string>
 </resources>
