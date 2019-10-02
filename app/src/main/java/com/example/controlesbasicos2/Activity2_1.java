@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Activity2_1 extends AppCompatActivity {
 
@@ -33,14 +34,18 @@ public class Activity2_1 extends AppCompatActivity {
                 String num1 = edNum1.getText().toString();
                 String num2 = edNum2.getText().toString();
                 String res = edRes.getText().toString();
+                if(res.equals("")){
+                    Toast.makeText(Activity2_1.this,"Introduce resultado",Toast.LENGTH_LONG).show();
+                }else {
 
-                Intent intent = new Intent(Activity2_1.this,Activity2_2.class);
+                    Intent intent = new Intent(Activity2_1.this, Activity2_2.class);
 
-                intent.putExtra("num1",Integer.parseInt(num1));
-                intent.putExtra("num2",Integer.parseInt(num2));
-                intent.putExtra("res",Integer.parseInt(res));
+                    intent.putExtra("num1", Integer.parseInt(num1));
+                    intent.putExtra("num2", Integer.parseInt(num2));
+                    intent.putExtra("res", Integer.parseInt(res));
 
-                startActivityForResult(intent,1234);
+                    startActivityForResult(intent, 1234);
+                }
             }
         });
 
