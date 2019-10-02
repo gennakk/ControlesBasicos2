@@ -14,7 +14,7 @@
         android:text="@string/a01txtNombre" />
 
     <EditText
-        android:id="@+id/edNombre"
+        android:id="@+id/edMail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"

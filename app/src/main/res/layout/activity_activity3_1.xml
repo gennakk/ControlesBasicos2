@@ -27,13 +27,12 @@
             android:text="@string/a01txtNombre" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/edMail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,13 +48,12 @@
             android:text="@string/a01txtApellidos" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/edMail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -77,17 +75,18 @@
             android:orientation="vertical">
 
             <RadioGroup
+                android:id="@+id/rdGroup"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/rdMasculino"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/a03rdoMasculino" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/rdFemenino"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/a03rdoFemenino" />
@@ -114,28 +113,34 @@
             android:orientation="vertical">
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/ckMusica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/a03chkMusica" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/ckLectura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/a03chkLectura" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/ckDeportes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/a03chkDeportes" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/ckViajar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/a03chkViajar" />
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a03btnEnviar" />
 </LinearLayout>

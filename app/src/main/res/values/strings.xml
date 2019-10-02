@@ -30,6 +30,11 @@
     <string name="a03rdoFemenino">Femenino</string>
     <string name="a03chkMusica">Música</string>
     <string name="a03chkLectura">Lectura</string>
-    <string name="a03chkDeportes">Desportes</string>
+    <string name="a03chkDeportes">Deportes</string>
     <string name="a03chkViajar">Viajar</string>
+    <string name="a03btnEnviar">Enviar</string>
+    <string name="a04txtMail">E-mail:</string>
+    <string name="a04txtPuntua">Puntúa la aplicación</string>
+    <string name="a04btnPuntua">Puntuar</string>
+
 </resources>

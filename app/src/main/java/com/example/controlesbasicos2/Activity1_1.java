@@ -23,7 +23,7 @@ public class Activity1_1 extends AppCompatActivity {
 
         tvCondiciones = findViewById(R.id.tvCondiciones);
 
-        edNombre = findViewById(R.id.edNombre);
+        edNombre = findViewById(R.id.edMail);
         edApellidos = findViewById(R.id.edApellido);
 
         btnVerificar = findViewById(R.id.btnVerificar);

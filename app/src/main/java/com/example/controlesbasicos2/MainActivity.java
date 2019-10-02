@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn03 = findViewById(R.id.button03);
 
-        btn02.setOnClickListener(new View.OnClickListener() {
+        btn03.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Activity3_1.class);
@@ -49,6 +49,30 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        Button btn04 = findViewById(R.id.button04);
+
+        btn04.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Activity4_1.class);
+
+                startActivity(intent);
+
+            }
+        });
+
+        Button btnSalir = findViewById(R.id.buttonSalir);
+
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+
+            }
+        });
+
+
 
     }
 }
